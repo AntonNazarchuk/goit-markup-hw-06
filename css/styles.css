@@ -833,7 +833,7 @@ body {
   flex-direction: column;
 }
 
-.form-field {
+.form-field:not(:last-child) {
   display: flex;
   flex-direction: column;
 
@@ -937,6 +937,7 @@ body {
   position: relative;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -946,7 +947,7 @@ body {
   align-items: center;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--header-text-color-second);
 }
@@ -1000,10 +1001,20 @@ body {
 
 /* ---checkbox-box--- */
 
+.modal-license-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .modal-button {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .form-box > .modal-button > button {
