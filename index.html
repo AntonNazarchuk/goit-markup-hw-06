@@ -16,6 +16,7 @@
 
 
             <link rel="stylesheet" href="./css/styles.css">
+            
       </head>
 
       <body class="body">
@@ -412,7 +413,8 @@
             </footer>
 
             <!-- модальное окно -->
-      <div class="backdrop is-hidden" data-modal>
+            <!-- is-hidden -->
+      <div class="backdrop " data-modal>
             <div class="modal">
                   <button class="modal-close" data-modal-close>
                         <svg class="close-item" width="18px" height="18px">
@@ -420,10 +422,70 @@
                         </svg>
                   </button>
                   <form action="">
-                        <h2>Оставьте свои данные, мы вам перезвоним</h2>
+                        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+
+                        <div class="form-box" role="group" aria-lebellebdy="contact-details-group">
+                              <div class="form-field">
+                                    <label for="name">Имя</label>
+                        
+                                    <input class="input-field" type="text" name="username" id="name" />
+                                    <span class="modal-icon">
+                                          <svg class="modal-icon-svg" width="18px" height="18px">
+                                                <use href="./img/icons.svg#icon-person"></use>
+                                          </svg>
+                                    </span>
+                              </div>
+                        
+                              <div class="form-field">
+                                    <label for="phone">Телефон</label>
+                        
+                                    <input class="input-field" type="tel" name="phone" id="phone" />
+                                    <span class="modal-icon">
+                                          <svg class="modal-icon-svg" width="18px" height="18px">
+                                                <use href="./img/icons.svg#icon-phone"></use>
+                                          </svg>
+                                    </span>
+                              </div>
+                        
+                              <div class="form-field">
+                                    <label for="email">Почта</label>
+                        
+                                    <input class="input-field" type="email" name="email" id="email" />
+                                    <span class="modal-icon">
+                                          <svg class="modal-icon-svg" width="18px" height="18px">
+                                                <use href="./img/icons.svg#icon-email"></use>
+                                          </svg>
+                                    </span>
+                              </div>
+                        
+                              <div class="form-field">
+                                    <label for="comment">Комментарий</label>
+                                    <textarea class="input-field" name="feedback" rows="3" placeholder="Введите текст" id="comment"></textarea>
+                              </div>
+                        
+                              <div class="checkbox-box">
+                                    <label class="label" for="checkbox">
+                                          <input class="hidden-checkbox" type="checkbox" id="checkbox" />
+                                          <span class="checkbox-icon">
+                                                <svg width="16px" height="15px">
+                                                      <use href="./img/icons.svg#icon-check"></use>
+                                                </svg>
+                                          </span>
+                                    </label>
+                                    <p>
+                                          Соглашаюсь с рассылкой и принимаю&nbsp
+                                          <a href="">Условия договора</a>
+                                    </p>
+                              </div>
+                        
+                              <div class="modal-button">
+                                    <button type="modal">Отправить</button>
+                              </div>
+                        </div>
 
                   
                   </form>
+                  
             </div>         
       </div>
 
