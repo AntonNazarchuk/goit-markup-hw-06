@@ -841,23 +841,18 @@ body {
 .form-field:not(:last-child) {
   display: flex;
   flex-direction: column;
-
   position: relative;
-
   margin-bottom: 10px;
 }
 
 .form-field label {
   display: block;
   position: relative;
-
   color: var(--header-text-color-second);
-
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
-
   margin-bottom: 4px;
 }
 
@@ -866,16 +861,14 @@ body {
   padding-top: 0;
   padding-right: 0;
   padding-bottom: 0;
-
   width: 448px;
   height: 40px;
-
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: var(--time-function);
+  cursor: pointer;
 }
 
 .modal-icon svg {
