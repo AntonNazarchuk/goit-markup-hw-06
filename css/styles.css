@@ -842,10 +842,6 @@ body {
   margin-bottom: 10px;
 }
 
-.form-field:last-child {
-  margin-bottom: 20px;
-}
-
 .form-field label {
   display: block;
   position: relative;
