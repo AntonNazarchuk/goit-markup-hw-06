@@ -775,6 +775,7 @@ body {
 
 .footer-input {
   width: 358px;
+  padding-left: 16px;
 }
 
 .subscribe-button {
