@@ -819,6 +819,8 @@ body {
 .modal-close:focus,
 .modal-close:hover {
   fill: var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 /* ----------------------- */
@@ -879,19 +881,27 @@ body {
 
 .form-field:hover input {
   border: 1px solid var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .form-field:hover .modal-icon svg {
   fill: var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .form-field input:focus-visible {
   outline: none;
   border: 1px solid var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .form-field input:focus-visible + .modal-icon svg {
   fill: var(--focus-color);
+  transition-duration: 2500ms;
+  transition-timing-function: var(--time-function);
 }
 
 .modal-icon {
@@ -922,11 +932,15 @@ body {
 
 .form-field textarea:hover {
   border: 1px solid var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .form-field textarea:focus-visible {
   outline: none;
   border: 1px solid var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 /* ---checkbox-box--- */
