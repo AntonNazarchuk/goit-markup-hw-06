@@ -816,6 +816,10 @@ body {
   cursor: pointer;
 }
 
+.modal-close:hover {
+  fill: var(--focus-color);
+}
+
 /* ----------------------- */
 
 .modal-title {
