@@ -776,6 +776,26 @@ body {
 .footer-input {
   width: 358px;
   padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+}
+
+.footer-input:hover {
+  border-color: var(--focus-color);
+}
+
+.footer-input:focus-visible {
+  outline: none;
+  border: 1px solid var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .subscribe-button {
@@ -797,6 +817,11 @@ body {
   align-items: center;
 
   margin-left: 12px;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--third-btn-color);
 }
 
 .subscribe-icon {
