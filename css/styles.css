@@ -789,6 +789,8 @@ body {
 
 .footer-input:hover {
   border-color: var(--focus-color);
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .footer-input:focus-visible {
